@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Hanu Tech</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="left-section">
+      <img src="yoyo.png" alt="Hanu Tech Logo" class="logo-img" />
+      <h1 class="site-title">Hanu Tech</h1>
+    </div>
+    <div class="right-section">
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <h2>Welcome to Hanu Tech</h2>
+    <p>Your trusted partner in education and innovation.</p>
+  </section>
+
+  <!-- Image Slider -->
+  <div class="slider">
+    <img src="yooy.png" class="slide active" alt="Slide 1">
+    <img src="yoyo.png" class="slide" alt="Slide 2">
+    <button class="prev" onclick="prevSlide()">❮</button>
+    <button class="next" onclick="nextSlide()">❯</button>
+  </div>
+
+  <!-- Services Section -->
+  <section id="services" class="services-section">
+    <h2>Our Quality Services</h2>
+    <div class="services-grid">
+      <div class="service-box">
+        <img src="expertise.png" alt="Expert Faculty" />
+        <h3>Expert Faculty</h3>
+        <p>Learn from experienced professionals with deep subject knowledge.</p>
+      </div>
+      <div class="service-box">
+        <img src="science-lab-equipment.png" alt="Modern Labs" />
+        <h3>Modern Labs</h3>
+        <p>Fully equipped labs for hands-on learning in science and tech.</p>
+      </div>
+      <div class="service-box">
+        <img src="opportunity.png" alt="Career Support" />
+        <h3>Career Support</h3>
+        <p>Personalized career guidance, placement support, and workshops.</p>
+      </div>
+      <div class="service-box">
+        <img src="training.png" alt="Smart Classrooms" />
+        <h3>Smart Classrooms</h3>
+        <p>Digital boards, projectors, and e-learning tools for effective teaching.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <h2>About Us</h2>
+    <p>Hanu Tech is a forward-thinking institution dedicated to providing top-quality education and innovative solutions in technology. Our mission is to empower students through practical learning, state-of-the-art infrastructure, and expert mentorship.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <input type="tel" placeholder="Your Phone Number" required />
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Hanu Tech. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
